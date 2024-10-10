@@ -44,7 +44,7 @@ export function Project() {
             <ScrollAnimation></ScrollAnimation>
             <div className="body">
               <h3>PadelLove</h3>
-             <p>Desarrollamos esta Web MarketPlace para un cliente de venezuela,cuenta con manejo de estados de los roles de comprador y diferentes categorias de vendedores, esto le permite al administrador realizar diferentes tipos de comisiones dependiendo el rol del usuario.   </p>
+             <p>Desarrollamos esta Web MarketPlace para un cliente de venezuela, cuenta con manejo de estados de los roles de comprador y diferentes categorias de vendedores, esto le permite al administrador realizar diferentes tipos de comisiones dependiendo el rol del usuario.   </p>
             </div>
             <footer>
               <ul className="tech-list">
