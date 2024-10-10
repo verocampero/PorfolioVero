@@ -16,7 +16,7 @@ export function Footer() {
       </a>
       <div>
         <p>
-        <img src={reactIcon} alt="React" /> Vero Campero - 2024 <img src={reactIcon} alt="React" />
+        Verónica Campero - 2024 
           {/* <span>❤️</span> */}
         </p>
       </div>

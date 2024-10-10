@@ -35,6 +35,35 @@ export function Project() {
             <header>
              
               <div className="project-links">
+                {/* <a href="https://github.com/No-Country/c16-121-t-reactnative" target="_blank" rel="noreferrer">
+                  <img src={githubIcon} alt="Visit site" /> </a> */}
+                 <a href="https://padelove.live/" target="_blank" rel="noreferrer">
+                  <img src={externalLink} alt="Visit site" /></a> 
+              </div>
+            </header>
+            <ScrollAnimation></ScrollAnimation>
+            <div className="body">
+              <h3>PadelLove</h3>
+             <p>Desarrollamos esta Web MarketPlace para un cliente de venezuela, cuenta con manejo de estados de los roles de comprador y diferentes categorias de vendedores, esto le permite al administrador realizar diferentes tipos de comisiones dependiendo el rol del usuario.   </p>
+            </div>
+            <footer>
+              <ul className="tech-list">
+              <li>React</li>
+                <li>Redux</li>
+                <li>Tailwind Css</li>
+                <li>ChatBoot</li>
+                <li>Newsletter</li>
+                <li>GitHub Project</li>
+                
+              </ul>
+            </footer>
+          </div>
+        </ScrollAnimation>
+        <ScrollAnimation animateIn="flipInX">
+          <div className="project">
+            <header>
+             
+              <div className="project-links">
                 <a href="https://github.com/No-Country/c16-121-t-reactnative" target="_blank" rel="noreferrer">
                   <img src={githubIcon} alt="Visit site" /> </a>
                 {/* <a href="https://ai-chatbot-t8fn.onrender.com" target="_blank" rel="noreferrer">

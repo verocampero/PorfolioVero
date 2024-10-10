@@ -1,5 +1,5 @@
 import { createGlobalStyle } from "styled-components";
-import space from '../../src/assets/space.webp'
+import space from "../../src/assets/space.webp";
 export const GlobalStyle = createGlobalStyle`
   :root{
     --pink: #bb7ff4;
@@ -24,6 +24,13 @@ export const GlobalStyle = createGlobalStyle`
       header.header-fixed{
         transition: 0.5s;
         background-color: #f5f5f550;
+        display: flex;
+        justify-content: center; 
+        align-items: center; 
+        
+        
+        
+        
         a{
           transition: 0.5s;
           color: black;
@@ -35,7 +42,8 @@ export const GlobalStyle = createGlobalStyle`
           background-color: rgba(555,555,555,0);
         }
       }
-     
+
+      
 
       footer.footer{
         transition: 0.5s;
@@ -80,11 +88,11 @@ export const GlobalStyle = createGlobalStyle`
     font-size: 1.6rem;
     -webkit-font-smoothing: antialiased;
     background-color: var(--black);
-    // background-image: url(${space});
-   
-    // background-size: cover; /* Ajusta el tamaño para que cubra toda la pantalla */
-    // background-position: center; /* Centra la imagen */
-    // background-repeat: no-repeat; /* Evita la repetición de la imagen */
+    background-image: url(${space});
+     background-attachment: fixed;
+     background-size: cover; /* Ajusta el tamaño para que cubra toda la pantalla */
+     background-position: center; /* Centra la imagen */
+     background-repeat: no-repeat; /* Evita la repetición de la imagen */
     color: #FFFF;
   }
 
@@ -124,4 +132,4 @@ export const GlobalStyle = createGlobalStyle`
     // }
   }
 
-`
+`;

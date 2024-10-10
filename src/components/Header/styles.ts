@@ -2,8 +2,9 @@ import styled from "styled-components";
 
 
 export const Container = styled.header`
+
   display: flex;
-  justify-content: space-between;
+  justify-content:center;
   align-items: center;
   padding: 1.8rem 10rem;
   
@@ -20,7 +21,7 @@ export const Container = styled.header`
   nav{
     display: flex;
     align-items: center;
-    gap: 1.8rem;
+    gap: 1.2rem;
     a{
       color: #FFFF;
       padding: 0.6rem;
