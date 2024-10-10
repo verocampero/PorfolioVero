@@ -10,6 +10,33 @@ export function Project() {
       <h2>My Projects</h2>
       <div className="projects">
 
+
+
+      <ScrollAnimation animateIn="flipInX">
+          <div className="project">
+            <header>
+            
+              <div className="project-links">
+                {/* <a href="https://github.com/verocampero/verocampero.github.io" target="_blank" rel="noreferrer">
+                  <img src={githubIcon} alt="Visit site" /></a> */}
+                <a href="https://padelove.live/" target="_blank" rel="noreferrer">
+                  <img src={externalLink} alt="Visit site" />
+                </a> </div>
+            </header>
+            <div className="body">
+              <h3>PadelLove</h3>
+              <p>Desarrollamos un marketplace que permite gestionar de manera eficiente tanto compras como ventas. Este sistema cuenta con diferentes roles para los usuarios, incluyendo vendedores regulares, vendedores designados por la empresa y tiendas autorizadas. La plataforma está diseñada para facilitar la interacción entre los distintos tipos de usuarios y optimizar el proceso de compra y venta, brindando una experiencia fluida y segura.
+
+
+                 </p>
+            </div>
+            <footer> <ul className="tech-list"> <li>Html</li> <li>Tailwind Css</li> <li>React</li> <li>Redux</li> <li>Node.js</li> </ul> </footer>
+          </div>
+        </ScrollAnimation>
+
+
+
+
         <ScrollAnimation animateIn="flipInX">
           <div className="project">
             <header>
