@@ -19,6 +19,29 @@ export function Project() {
               <div className="project-links">
                 {/* <a href="https://github.com/verocampero/verocampero.github.io" target="_blank" rel="noreferrer">
                   <img src={githubIcon} alt="Visit site" /></a> */}
+                <a href="https://drive.google.com/file/d/10VoB48RpYnL_MyyXfv52fLQeKZ95vD_C/view?usp=sharing" target="_blank" rel="noreferrer">
+                  <img src={externalLink} alt="Visit site" />
+                </a> 
+                
+                </div>
+            </header>
+            <div className="body">
+              <h3>Tu Evento</h3>
+              <p>
+              Junto al equipo de CountryDevs, desarrollamos una aplicación móvil para iOS y Android, totalmente adaptada para cualquier dispositivo, incluyendo tablets. La aplicación permite gestionar eventos desde cero, crear presupuestos personalizados, exportarlos en formato Excel y asignar tareas a distintos trabajadores, gracias a un sistema de roles con permisos específicos. También ofrece un control eficiente del inventario, permitiendo gestionar el stock y escanear códigos QR generados por la misma aplicación al registrar nuevos productos. Además, cuenta con múltiples funcionalidades adicionales y ha sido diseñada para ser escalable, adaptándose fácilmente a las necesidades futuras del negocio.
+                 </p>
+            </div>
+            <footer> <ul className="tech-list">  <li>ReactNative</li>  <li>Expo</li> <li>Node.js</li>  <li>MongoDB</li> <li>StyleSheet</li> </ul> </footer>
+          </div>
+        </ScrollAnimation>
+
+        <ScrollAnimation animateIn="flipInX">
+          <div className="project">
+            <header>
+            
+              <div className="project-links">
+                {/* <a href="https://github.com/verocampero/verocampero.github.io" target="_blank" rel="noreferrer">
+                  <img src={githubIcon} alt="Visit site" /></a> */}
                 <a href="https://padelove.live/" target="_blank" rel="noreferrer">
                   <img src={externalLink} alt="Visit site" />
                 </a> </div>
@@ -30,7 +53,7 @@ export function Project() {
 
                  </p>
             </div>
-            <footer> <ul className="tech-list"> <li>Html</li> <li>Tailwind Css</li> <li>React</li> <li>Redux</li> <li>Node.js</li> </ul> </footer>
+            <footer> <ul className="tech-list"> <li>Html</li> <li>Tailwind Css</li> <li>React</li>  <li>MongoDB</li> <li>Redux</li> <li>Node.js</li> </ul> </footer>
           </div>
         </ScrollAnimation>
 
