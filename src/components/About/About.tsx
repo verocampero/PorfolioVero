@@ -18,12 +18,12 @@ export function About() {
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.1 * 1000}>
           <p>
-          Hola, soy Vero, una apasionada desarrolladora front-end con un ojo agudo para el diseño y una obsesión por la perfección en la experiencia de usuario.A lo largo de este camino he perfeccionado mis habilidades en HTML, CSS, JavaScript y frameworks como React, para crear interfaces web que no solo son visualmente atractivas, sino también funcionales e intuitivas.
+          Hola, soy Vero, una apasionada desarrolladora front-end con un ojo agudo para el diseño y una obsesión por la perfección en la experiencia de usuario.A lo largo de este camino he perfeccionado mis habilidades en HTML, CSS, JavaScript y frameworks como React,ReactNative, y Tailwind Css, para crear interfaces web que no solo son visualmente atractivas, sino también funcionales e intuitivas.
           </p>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.2 * 1000} style={{ marginTop: "2rem", marginBottom: "2rem" }}>
           <p>
-          Mi viaje en el mundo del desarrollo front-end comenzó cuando descubrí el poder de transformar mis diseños en realidad a través del código. Desde entonces, he trabajado en una variedad de proyectos, desde aplicaciones web responsivas hasta aplicaciones mobiles.</p>
+          Mi viaje en el mundo del desarrollo front-end comenzó cuando descubrí el poder de transformar mis diseños en realidad a través del código. Desde entonces, he trabajado en una variedad de proyectos, desde aplicaciones web responsivas hasta aplicaciones móviles.</p>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.3 * 1000}>
           <p>
