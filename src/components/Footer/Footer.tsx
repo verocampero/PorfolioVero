@@ -16,7 +16,7 @@ export function Footer() {
       </a>
       <div>
         <p>
-        Verónica Campero - 2024 
+        Verónica Campero - 2025 
           {/* <span>❤️</span> */}
         </p>
       </div>

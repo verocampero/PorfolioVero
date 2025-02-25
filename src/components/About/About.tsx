@@ -8,6 +8,8 @@ import boostrapIcon from "../../assets/bootstrap-icon.svg";
 import ScrollAnimation from "react-animate-on-scroll";
 import tailwind from "../../assets/tailwind.png"
 import vero from '../../assets/perfil-10.png'
+import next from '../../assets/next.webp'
+import ts from '../../assets/ts.webp'
 
 export function About() {
   return (
@@ -39,7 +41,16 @@ export function About() {
               <img src={reactIcon} alt="React" />
             </ScrollAnimation>
           </div>
-        
+          <div className="hability">
+            <ScrollAnimation animateIn="fadeInUp" delay={0.1 * 1000}>
+              <img src={next} alt="React" />
+            </ScrollAnimation>
+          </div>
+          <div className="hability">
+            <ScrollAnimation animateIn="fadeInUp" delay={0.1 * 1000}>
+              <img src={ts} alt="React" />
+            </ScrollAnimation>
+          </div>
           <div className="hability">
             <ScrollAnimation animateIn="fadeInUp" delay={0.1 * 1000}>
               <img src={htmlIcon} alt="Html" />
